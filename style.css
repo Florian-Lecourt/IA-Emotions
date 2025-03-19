@@ -1,4 +1,4 @@
-.nav-wrapper, .page-footer{
+.nav-wrapper, .page-footer, nav{
     background-color: #9c81c6;
 }
 
@@ -16,7 +16,11 @@ body{
     flex-direction: column;
 }
 
-main{
+.nav-wrapper {
+   width: 100%;
+}
+
+main {
     flex: 1;
 }
 
