@@ -12,29 +12,29 @@
 </head>
 <body>
 
-<header>
-  <nav>
-    <div class="nav-wrapper">
-      <a href="index.html" class="brand-logo">Projet IA-Emotions</a>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="index.html">Introduction</a></li>
-        <li><a href="Organisation.html">Organisation</a></li>
-        <li><a href="News.html">News</a></li>
-        <li><a href="Submissions.html">Submissions</a></li>
-        <li><a href="Contact.html">Contact us</a></li>
-      </ul>
-    </div>
-  </nav>
+<nav role="navigation">
+  <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">Projet IA-Emotions</a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="index.html">Introduction</a></li>
+      <li><a href="Organisation.html">Organisation</a></li>
+      <li><a href="News.html">News</a></li>
+      <li><a href="Submissions.html">Submissions</a></li>
+      <li><a href="Contact.html">Contact us</a></li>
+    </ul>
 
-  <ul class="sidenav" id="slide-out">
-    <li><a href="index.html">Introduction</a></li>
-    <li><a href="Organisation.html">Organisation</a></li>
-    <li><a href="News.html">News</a></li>
-    <li><a href="Submissions.html">Submissions</a></li>
-    <li><a href="Contact.html">Contact us</a></li>
-  </ul>
-</header>
+    <ul id="nav-mobile" class="sidenav" style="transform: translateX(-105%);">
+      <li><a href="index.html">Introduction</a></li>
+      <li><a href="Organisation.html">Organisation</a></li>
+      <li><a href="News.html">News</a></li>
+      <li><a href="Submissions.html">Submissions</a></li>
+      <li><a href="Contact.html">Contact us</a></li>
+    </ul>
+
+    <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+      <i class="material-icons">menu</i>
+    </a>
+  </div>
+</nav>
 
 <main>
   <section class="content" id="News">
@@ -44,7 +44,7 @@
           <h1>News</h1>
         </header>
         <p>
-
+          Come back later!
         </p>
       </div>
     </article>

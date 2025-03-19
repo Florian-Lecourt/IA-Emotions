@@ -106,3 +106,9 @@ article .card-container, article .card-image, article header{
 .profilepicture {
     width: 200px;
 }
+
+dd {
+    display: list-item;
+    list-style-type: square;
+    padding-inline-start: 1ch;
+}
